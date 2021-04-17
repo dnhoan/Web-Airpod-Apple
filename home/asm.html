@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment</title>
+	<link rel="stylesheet" href="asm.css">
+</head>
+
+<body>
+	<div class="container">
+		<thead>
+			<div class="logo">
+				<a href="asm.html"><img src="../img/logo.png" alt="logo" width="50px" height="50px"></a>
+			</div>
+			<!-- end logo -->
+			<div class="navbar">
+				<div class="navbar-left">
+					<div class="icon-home">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<!-- end icon home -->
+					<div class="search">
+						<button class="btn-search"><img src="../img/icons8-search-50.png" style="padding-right: 5px"
+								width="20"></button>
+						<input type="text" placeholder="Search" class="input-search">
+					</div>
+					<!-- end search -->
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="">Airpods</a></li>
+						<li><a href="">Beats</a></li>
+						<li><a href="">FQAs</a></li>
+						<li><a href="">Shipping</a></li>
+						<li><a href="">Order Tracking</a></li>
+					</ul>
+				</div>
+				<!-- end menu -->
+				<div class="navbar-right">
+					<div class="user">
+						<ul>
+							<li><a href="../login/login.html">Sign in</a></li> |
+							<li><a href="../signup/signup.html">Sign up</a></li>
+						</ul>
+					</div>
+					<!-- end form user -->
+					<button id="btn-cart"><img src="../img/icons8-fast-cart-24.png" width="20px"></button>
+				</div>
+				<!-- end nav bar right -->
+			</div>
+			<!-- end nav bar -->
+		</thead>
+		<!-- end header -->
+		<main>
+			<div id="showMain">
+				<div class="banner">
+					<img src="../img/banner.jpg" alt="banner" width="1080">
+				</div>
+				<!-- end banner -->
+				<div class="title">
+					<div class="shop-now">
+						<div class="show-now-img">
+							<a href="" id="image-title">
+								<img src="../img/img-link1.jpg" alt="title1" width="350" height="170">
+							</a>
+						</div>
+						<div class="show-now-link">
+							<a href="">Show now</a>
+						</div>
+					</div>
+					<!-- end show now left-->
+					<div class="shop-now">
+						<div class="show-now-img">
+							<a href="" id="image-title">
+								<img src="../img/img-link2.png" alt="title2" width="350" height="170">
+							</a>
+							<div class="show-now-link">
+								<a href="">Show now</a>
+							</div>
+						</div>
+					</div>
+					<!-- end show now mid -->
+					<div class="shop-now">
+						<div class="show-now-img">
+							<a href="" id="image-title">
+								<img src="../img/img-link3.jpg" alt="title3" width="350" height="170">
+							</a>
+							<div class="show-now-link">
+								<a href="">Show now</a>
+							</div>
+						</div>
+					</div>
+					<!-- end show now right -->
+				</div>
+				<!-- end title -->
+				<div class="best-teller">
+					<h4 class="title-name">Best Teller</h4>
+				</div>
+				<!-- end best teller-->
+				<div id="product">
+					<!-- display in js -->
+				</div>
+			</div>
+		</main>
+		<!-- end main -->
+		<div class="hide" id="table-cart">
+			<h2>My Cart</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>No</th>
+						<th>Image</th>
+						<th>Name Product</th>
+						<th>Price</th>
+						<th>Status</th>
+						<th></th>
+					</tr>
+				</thead>
+				<!-- table header -->
+				<tbody id="tableData">
+				</tbody>
+				<!-- table data product -->
+				<tfoot>
+					<tr>
+						<td colspan="4">Total</td>
+						<td id="total" colspan="2">$0</td>
+					</tr>
+				</tfoot>
+				<!-- subtotal -->
+			</table>
+			<div class="btn-return-clear-checkout">
+				<button id="returnToShop">Return To Shop</button>
+				<div>
+					<button id="btnClearCart">Clear Cart</button>
+					<button id="btnCheckOut">Check Out</button>
+				</div>
+			</div>
+		</div>
+		<!-- end table -->
+		<footer>
+			<div class="footer-content">
+				<p class="rights">©2021 Airpods Store. All rights reserved</p>
+				<div class="link">
+					<ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">FAQs</a></li>
+						<li><a href="">Shipping</a></li>
+						<li><a href="">Returns</a></li>
+						<li><a href="">Privacy policy</a></li>
+						<li><a href="">Term of service</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end content footer -->
+		</footer>
+		<!-- end footer -->
+	</div>
+	<script src="asm.js"></script>
+</body>
+
+</html>

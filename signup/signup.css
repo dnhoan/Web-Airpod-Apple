@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: auto;
+    font-family:"Sabon Next LT";
+ }
+ /* setting hrel all page */
+a {
+     text-decoration: none;
+     color: #000;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ /* setting logo */
+.logo{
+    text-align: center;
+    padding: 10px 0px;
+ }
+ /* setting nav bar */
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+/* nav bar left */
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.icon-home{
+    cursor: pointer;
+}
+.icon-home div {
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0px;
+}
+.search{ 
+    display: flex;
+    text-align: right;
+    margin-left: 20px;
+}
+.input-search{
+    border: none;
+    border-bottom: 1px solid  rgb(0, 0, 0)  ;
+    outline: none;
+    height: 20px;
+ }
+.btn-search{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ /* nav bar mid, link */
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 30px;
+}
+.menu ul li {
+    display: inline-block;
+}
+/* setting nav bar right */
+.navbar-right{
+    display: flex;
+}
+.user ul li{
+    display: inline-block;
+ }
+.user ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.btn-cart{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.create-my-account{
+    margin: 50px auto;
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title{
+    text-align: center;
+}
+.title h5{
+    padding-top:30px;
+}
+.div-form{
+    width: 300px;
+    margin: 50px auto;
+}
+.form{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.input-user>input{
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 300px;
+}
+.input-user{
+    border-bottom: 1px solid rgb(146, 146, 146);
+    margin: 20px 0px;
+}
+.input-user:active:hover{
+    border-bottom: 1px solid #000;
+}
+.input-password>input{
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 300px;
+}
+.input-password{
+    margin: 20px 0px;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+.input-password:hover:active{
+    border-bottom: 1px solid #000;
+}
+.input-confirm-password>input{
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 300px;
+}
+.input-confirm-password{
+    margin: 20px 0px;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+.input-confirm-password:hover:active{
+    border-bottom: 1px solid #000;
+}
+.remember-password{
+    margin: 20px 0px;
+}
+.btn-submit{
+    text-align: center;
+}
+#sign-up{
+    border:none;
+    height: 40px;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+}
+#sign-up:hover{
+    background-color: rgb(59, 58, 58)
+}
+/* setting footer */
+footer{
+    margin-top: 20px;
+    border-top: rgb(180, 179, 179) 1px solid;
+}
+.footer-content{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 1080px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.link ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
