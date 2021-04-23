@@ -1,3 +1,4 @@
+//  change after pull
 var product = document.getElementById("product")
 var productArr = [
     {
